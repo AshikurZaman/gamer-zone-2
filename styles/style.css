@@ -1,0 +1,155 @@
+/* work sans font   */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 1440px;
+}
+
+/* nav section */
+.nav{
+    margin: 0px 100px;
+    padding: 30px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+
+}
+.frame-img{
+    height: 30px;
+}
+.title-text{
+    margin-left: 10px;
+    font-size: 2rem;
+    font-weight: 800px;
+}
+.primary-color{
+    color: rgb(212, 15, 130);
+}
+
+.nav-item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 12px;
+    border-radius: 7px;
+}
+.nav-item a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.follow{
+    background-color:aliceblue;
+    
+}
+.follow i{
+    margin-left: 3px;
+}
+
+
+/* banner section */
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 100px;
+}
+
+.banner-status{
+    max-width: 50%;
+}
+
+.banner-goat{
+    font-size: 4rem;
+    width: 800px;
+    color: rgb(226, 9, 136);
+    padding: 20px 10px;
+}
+.primary-text{
+    font-size: 16px;
+    width: 400px;
+    color: black;
+    padding: 5px 10px;
+}
+.btn-primary{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    color: aliceblue;
+    border-radius: 15px;
+    background-color: rgb(223, 13, 160);
+    
+}
+.btn-primary-1{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    color: aliceblue;
+    border-radius: 15px;
+    background-color: rgb(129, 13, 223);
+    
+}
+
+/* banner img */
+.banner-img{
+    height: 400px;
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsive for mobile devise */
+
+@media screen and (max-width:876px) {
+
+    .nav, .nav-item, .banner-container{
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 30px;
+    }
+
+    .banner-status{
+        align-items: center;
+        max-width: 60%;
+        margin: 30px;
+    }
+    
+    .banner-img{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
