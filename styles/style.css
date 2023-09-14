@@ -112,6 +112,35 @@ body{
 }
 
 
+/* online gaming section */
+
+.online-game{
+    margin: 30px 100px;
+}
+
+.online-status{
+    text-align: center;
+    margin: 20px;
+
+}
+.online-text{
+    font-size: 14px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.online-cards{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 10px;
+
+}
+
+.card-img{
+    width: 280px;
+}
+
 
 
 
@@ -125,20 +154,36 @@ body{
 
 @media screen and (max-width:876px) {
 
-    .nav, .nav-item, .banner-container{
+    .nav, .nav-item, .banner-container, .online-cards{
         flex-direction: column;
         align-items: center;
-        margin: 0px 30px;
+        margin: 0px 20px;
+        
     }
 
     .banner-status{
-        align-items: center;
+        text-align: center;
         max-width: 60%;
         margin: 30px;
     }
     
     .banner-img{
         width: 100%;
+    }
+
+    .online-status{
+
+        text-wrap: nowrap;
+        margin: 0px;
+        margin-bottom: 20px;
+        /* width: 100%; */
+        
+    }
+    .title-text{
+        font-size: 1.5rem;
+    }
+    .online-text{
+        font-size: 12px;
     }
 }
 
