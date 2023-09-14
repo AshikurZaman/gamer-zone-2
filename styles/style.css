@@ -77,12 +77,14 @@ body{
     width: 800px;
     color: rgb(226, 9, 136);
     padding: 20px 10px;
+    max-width: 50%;
 }
 .primary-text{
     font-size: 16px;
     width: 400px;
     color: black;
     padding: 5px 10px;
+    max-width: 50%;
 }
 .btn-primary{
     font-size: 20px;
@@ -152,7 +154,7 @@ body{
 
 /* responsive for mobile devise */
 
-@media screen and (max-width:876px) {
+@media screen and (max-width:756px) {
 
     .nav, .nav-item, .banner-container, .online-cards{
         flex-direction: column;
@@ -162,7 +164,6 @@ body{
     }
 
     .banner-status{
-        text-align: center;
         max-width: 60%;
         margin: 30px;
     }
@@ -171,12 +172,11 @@ body{
         width: 100%;
     }
 
-    .online-status{
+    .online-status, .primary-text{
 
         text-wrap: nowrap;
         margin: 0px;
         margin-bottom: 20px;
-        /* width: 100%; */
         
     }
     .title-text{
